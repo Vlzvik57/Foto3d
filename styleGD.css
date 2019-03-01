@@ -1,0 +1,107 @@
+.cont1 div,.cont3 div{
+    display: flex;
+}
+.cont1,.cont3 {
+    display: flex;
+    border: 8px solid silver;
+    padding: 9px;
+    margin: 7px;
+    flex-wrap: wrap;
+}
+
+.elem1 {
+    flex: 1;
+}
+
+.elem2 {
+    flex: 3;
+}
+.cont2 {
+   
+    display: flex;
+    flex-direction: row;
+}
+
+p{
+  font-size: 1.2em;
+  color: #00f;
+text-indent: 30px;
+}
+.cont3 {
+    display: flex;
+    justify-content: center;
+}
+.item21 {
+    flex: 1;
+}
+
+.item22 {
+    flex: 1;
+}
+
+.item23 {
+    flex: 1;
+}
+.fotorama{
+    display: flex;
+    justify-content: center;
+}
+
+.vashsite{
+    display: flex;
+    justify-content: center;
+}
+
+.dws-wrapper{
+ max-width: 1200px;
+ margin: 0 auto;
+}
+ul.accordion{
+ display: flex;
+ justify-content: center;
+ margin-top: 30px;
+ padding: 0;
+}
+ul.accordion li{
+ width: 50px;
+ overflow: hidden;
+ padding: 1px 1px 0;
+ cursor: pointer;
+ display: block;
+ -webkit-box-shadow: 1px 3px 15px #7e807e;
+ -moz-box-shadow: 1px 3px 15px  #7e807e;
+ box-shadow: 1px 3px 15px  #7e807e;
+ -webkit-transition: all 1.5s;
+ -moz-transition: all 1.5s;
+ -ms-transition: all 1.5s;
+ -o-transition: all 1.5s;
+ transition: all 1.5s;
+}
+ul.accordion img{
+ width: 400px;
+}
+ul.accordion li:hover{
+ width: 300px;
+ -webkit-box-shadow: 1px 3px 15px #36c5fa;
+ -moz-box-shadow: 1px 3px 15px #36c5fa;
+ box-shadow: 1px 3px 15px #36c5fa;
+ -webkit-transition: all 1s;
+ -moz-transition: all 1s;
+ -ms-transition: all 1s;
+ -o-transition: all 1s;
+ transition: all 1s;
+}
+ul.accordion li:nth-child(4){
+ width: 300px;
+}
+ul.accordion:hover li:nth-child(4){
+ width: 50px;
+}
+ul.accordion li:nth-child(4):hover{
+ width: 300px;
+}
+
+
+.f3d {
+    justify-content: center;
+}
